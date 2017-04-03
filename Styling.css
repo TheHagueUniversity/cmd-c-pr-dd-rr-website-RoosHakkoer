@@ -1,26 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
 	width: 60%;
 	max-width: 960px;
-	min-width: 600px;
+	min-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2%;
     background-image: url('Images/light-background.jpg');
 	background-repeat: no-repeat;
-	
+	font-family: 'Roboto', Arial, sans-serif;
+}
+h1{
+	font-family:'Philosopher', Times New Roman, serif;
+}
+h2, h3, h4{
+	font-family:'Roboto', Arial, sans-serif;
 }
 #logo{
-  width: 200px;
-  height: 200px;
+  width: 134px;
+  height: 100px;
   display:block;
   text-indent:-9999px; /* wat is text-indent*/
   background:url('Images/logo-imperium.png');
+  background-size:cover;
 }
 header {
-  border: 2px #DF134C bottom;
+  border: 2px solid #DF134C;
   overflow: auto;
 }
 
 .hoofdmenu li{
 	display: inline;
+	
 }
