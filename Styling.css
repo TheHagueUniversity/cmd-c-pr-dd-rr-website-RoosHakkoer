@@ -1,0 +1,26 @@
+body {
+	width: 60%;
+	max-width: 960px;
+	min-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+    background-image: url('Images/light-background.jpg');
+	background-repeat: no-repeat;
+	
+}
+#logo{
+  width: 200px;
+  height: 200px;
+  display:block;
+  text-indent:-9999px; /* wat is text-indent*/
+  background:url('Images/logo-imperium.png');
+}
+header {
+  border: 2px #DF134C bottom;
+  overflow: auto;
+}
+
+.hoofdmenu li{
+	display: inline;
+}
