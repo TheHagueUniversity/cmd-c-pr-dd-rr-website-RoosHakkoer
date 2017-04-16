@@ -15,6 +15,9 @@ body {
 	background-repeat: no-repeat;
 	font-family: 'Roboto', Arial, sans-serif;
 }
+a{
+	text-decoration: none;
+}
 h1{
 	font-family:'Philosopher', Times New Roman, serif;
 }
@@ -46,17 +49,32 @@ header {
 .hoofdmenu li{
 	display: inline;
 	padding:10px 15px;
-	
+	color:#645E53;
+}
+.hoofdmenu a{
+	color:#645E53;
+	font-weight:bold;
 }
 .welcome{
 	width:100%;
 	height:350px;
 	background:url('Images/LangeNasleep1.jpg');
 	color: white;
-	
 }
-.welocome a{
-	
+.welcome h1{
+	padding-top:10px;
+	padding-left:10px;
+	font-size: 32px
+}
+.welcome p{
+	padding-left:10px;
+}
+.welcome a{
+	float:right;
+	padding:10px;
+	color: white;
+	background-color: #F77A52;
+	margin-top: 190px;
 }
 .agenda{
 	width: 100%;
@@ -65,12 +83,36 @@ header {
 	background-color: white;
 	margin-top: 5px;
 }
-#mistero{
-	background: url('Images/Mistero.jpg') no-repeat;
+.agenda h2{
+	float: left;
 	
 }
+.overzicht{
+	float: right;
+    padding: 10px;
+    color: #F77A52;
+	margin-top: 20px;
+}
+#mistero{
+	background: url('Images/Mistero.jpg') no-repeat;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+	margin-top: 5px;
+	margin-top:5px;
+	clear: left;
+}
+#nasleep{
+	background: url('Images/langenasleep2.jpg') no-repeat;
+	border-bottom: 1px solid grey;
+	margin-top: 5px;
+}
+#mars{
+	background: url('Images/mars.jpg') no-repeat;
+	border-bottom: 1px solid grey;
+	margin-top: 5px;
+}
 .agendalist li{
-	padding-left:150px;
+	padding-left:140px;
 	overflow: auto;
 }
 .kaartjes{
@@ -78,10 +120,14 @@ header {
 	padding:10px;
 	color: white;
 	background-color: #DF134C;
-	
+	margin-top: 85px;
 }
 .artikelen{
 	overflow:auto;
+}
+.artikelen h1{
+	font-size:32px;
+	color:#773B28;
 }
 .wie, .lid, .huren{
 	text-align: justify;
@@ -95,9 +141,25 @@ header {
 }
 .wie{
 	margin-left: 0px;	
+	/* Het lukte mij niet om de afbeeling er goed in te plaatsen */
 }
 .huren{
 	margin-right: 0px;
+}
+.artikelen a{
+	float:right;
+	padding:10px;
+	color: white;
+	background-color: #F77A52;
+}
+.wie a{
+	margin-top: 50px;
+}
+.lid a{
+	margin-top: 10px;
+}
+.huren a{
+	margin-top: 25px;
 }
 footer{
 	background-color: #E2DFD3;
@@ -111,6 +173,9 @@ footer{
 .foot1, .foot2, .foot3, .foot4{
 	float: left;
 	list-style:none;
-	padding-right:50px;
+	padding-right:60px;
 	
+}
+.footernav a{
+	color: grey;
 }
